@@ -2,8 +2,9 @@ import { useEffect } from "react";
 import { useState } from "react";
 
 export default function Bill() {
-  const [kWH, setKWH] = useState("100");
-  const [pricePerKWH, setPricePerKWH] = useState("0.01");
+  const [kWH, setKWH] = useState("0");
+  const pricePerKWH = 0.01;
+  const [ipAddress, setIpAddress] = useState("");
   const stationNum = 1;
   const customerOwes = currencyFormat(pricePerKWH * kWH);
 
