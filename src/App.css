@@ -14,7 +14,9 @@
 } */
 
 .App-header {
-  background-color: #282c34;
+  background-image: url(./abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpeg);
+  background-position: center;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +38,6 @@
     transform: rotate(360deg);
   }
 } */
+
+.Welcome {
+}
